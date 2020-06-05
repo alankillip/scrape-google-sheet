@@ -1,0 +1,15 @@
+{
+  "name": "extract-from-google-sheets",
+  "version": "1.0.0",
+  "description": "Extract data from a publicly editable google sheet",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0"
+  }
+}
