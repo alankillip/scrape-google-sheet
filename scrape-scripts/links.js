@@ -15,7 +15,7 @@ module.exports = (data, titleRow, startDataRow, columnsIds, category) => {
     if (cell.row >= startDataRow) {
       const link = links[cell.row];
       if (cell.col === 1) {
-        link.content = cell.content;
+        link.name = cell.content;
         link.link = extractHyperLink(cell);
 
       }

@@ -6,7 +6,6 @@ const createBaseObject = require('./utils/create-base-object');
 module.exports = (data, titleRow, startDataRow, columnsIds, category) => {
   const cells = data.map(createCell);
   const groups = [];
-  const columns = [];
   let currentType;
   const processCell = (cell) => {
     if (!groups[cell.row]) {
@@ -28,6 +27,6 @@ module.exports = (data, titleRow, startDataRow, columnsIds, category) => {
   cells.map(processCell);
   return {
     groups: groups.reduce(cleanse, []),
-    columns,
+    ['Support For', 'Name', 'Number', 'Description']
   };
 };
