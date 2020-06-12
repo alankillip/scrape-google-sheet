@@ -27,6 +27,6 @@ module.exports = (data, titleRow, startDataRow, columnsIds, category) => {
   cells.map(processCell);
   return {
     groups: groups.reduce(cleanse, []),
-    ['Support For', 'Name', 'Number', 'Description']
+    ['Support For', 'Name', 'Number', 'Description', 'Link']
   };
 };
