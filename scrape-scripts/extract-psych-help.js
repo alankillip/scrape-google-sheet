@@ -1,5 +1,5 @@
 require('dotenv').config();
-const { extractData } = require('./scrape');
+const { extractData } = require('./extract-data');
 
 // Link is extracted from the name column
 const columnsIds = ['type', 'name', 'phone', 'desc'];

@@ -1,4 +1,4 @@
-const { extractData } = require('./scrape');
+const { extractData } = require('./extract-data');
 
 const fieldNames = ['name', 'link', 'type'];
 

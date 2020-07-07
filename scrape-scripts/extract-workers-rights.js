@@ -1,5 +1,5 @@
 
-const { extractData } = require('./scrape');
+const { extractData } = require('./extract-data');
 
 const columnsIds = ['name', 'topic', 'type', 'website', 'detailsNotes', 'targetGroup'];
 

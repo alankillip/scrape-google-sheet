@@ -1,4 +1,4 @@
-const { extractData } = require('./scrape');
+const { extractData } = require('./extract-data');
 
 const columnsIds = ['date', 'agenda', 'minutes', 'linkToJoin', 'chair', 'summary'];
 
